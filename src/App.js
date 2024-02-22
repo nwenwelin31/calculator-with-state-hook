@@ -20,12 +20,12 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
-          <form onSubmit={sum}>
-            <div className='col-md-5'>
+          <form onSubmit={sum} className='login-form'>
+            <div>
             <h2>Sum Calculator</h2>
             </div>
             {/* number one */}
-            <div className='col-md-5'>
+            <div class="form-input-material">
               <label htmlFor='num1'>Number 1:</label>
               <input type='number' name='num1' id='num1' placeholder='Enter a number' className='form-control' required 
                 onChange={(event) => setNum1(event.target.value)}
@@ -33,7 +33,7 @@ function App() {
             </div>
 
             {/* number two */}
-            <div className='col-md-5'>
+            <div class="form-input-material">
               <label htmlFor='num2'>Number 2:</label>
               <input type='number' name='num2' id='num2' placeholder='Enter a number' className='form-control' required 
                 onChange={(event) => setNum2(event.target.value)}
@@ -41,8 +41,8 @@ function App() {
             </div>
 
             {/* sum button */}
-            <div className='col-md-5 mt-2'>
-              <button data-mdb-ripple-init class="btn btn-primary btn-block mb-4" type='submit'>Sum</button>
+            <div>
+              <button class="btn btn-primary btn-ghost mt-2" type='submit'>Sum</button>
             </div>
 
             {/* show result */}
