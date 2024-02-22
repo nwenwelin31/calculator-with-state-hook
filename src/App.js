@@ -21,9 +21,7 @@ function App() {
     <div className="App">
       <div className='container'>
           <form onSubmit={sum} className='login-form'>
-            <div>
-            <h2>Sum Calculator</h2>
-            </div>
+            <h1>Sum Calculator</h1>
             {/* number one */}
             <div class="form-input-material">
               <label htmlFor='num1'>Number 1:</label>
