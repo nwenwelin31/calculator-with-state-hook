@@ -18,7 +18,7 @@ function App() {
 
   const sum = (event) => {
      event.preventDefault();
-    if(num1 === '' || num2 === ''){
+    if(num1 === '0' || num2 === '0'){
       alert('Please enter a number');
     }
     else{
