@@ -43,7 +43,7 @@ const calculator = () => {
         // Check if num2 is not zero before performing division
         if (parseInt(num2) !== 0) {
           result = (parseInt(num1) / parseInt(num2));
-          action ="Divide Result : ";
+          action ="Division Result : ";
         } else {
           result = "Cannot divide by zero";
         }
